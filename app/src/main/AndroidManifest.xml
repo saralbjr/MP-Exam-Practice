@@ -13,6 +13,9 @@
         android:theme="@style/Theme.MyApplication"
         tools:targetApi="31">
         <activity
+            android:name=".ContextMenu"
+            android:exported="false" />
+        <activity
             android:name=".MainCalculate"
             android:exported="true">
             <intent-filter>
@@ -26,9 +29,7 @@
             android:exported="false" />
         <activity
             android:name=".MainFragment"
-            android:exported="false">
-
-        </activity>
+            android:exported="false"></activity>
         <activity
             android:name=".SimpleFragment"
             android:exported="false" />
