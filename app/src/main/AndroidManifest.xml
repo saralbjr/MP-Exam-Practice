@@ -13,8 +13,11 @@
         android:theme="@style/Theme.MyApplication"
         tools:targetApi="31">
         <activity
-            android:name=".AndroidActivityDemo"
-            android:exported="true">
+            android:name=".SecondActivity"
+            android:exported="false" />
+        <activity
+            android:name=".FirstActivity"
+            android:exported="true" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -22,15 +25,16 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".EventHandling"
+            android:name=".AndroidActivityDemo"
             android:exported="false">
 
         </activity>
         <activity
+            android:name=".EventHandling"
+            android:exported="false" />
+        <activity
             android:name=".Widgets"
-            android:exported="false">
-
-        </activity>
+            android:exported="false" />
         <activity
             android:name=".ConstraintLayout"
             android:exported="false" />
@@ -39,7 +43,7 @@
             android:exported="false" />
         <activity
             android:name=".TableLayout"
-            android:exported="false"></activity>
+            android:exported="false" />
         <activity
             android:name=".RelativeLayout"
             android:exported="false" />

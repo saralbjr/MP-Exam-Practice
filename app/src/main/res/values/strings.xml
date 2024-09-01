@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">My Application</string>
+    <string name="app_name">Mobile Programming</string>
     <string-array name="spinner_items">
         <item>Item 1</item>
         <item>Item 2</item>
