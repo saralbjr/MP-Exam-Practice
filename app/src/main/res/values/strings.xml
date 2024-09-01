@@ -5,4 +5,9 @@
         <item>Item 2</item>
         <item>Item 3</item>
     </string-array>
+    <string-array name="programs">
+        <item>BCA</item>
+        <item>BIM</item>
+        <item>BBM</item>
+    </string-array>
 </resources>

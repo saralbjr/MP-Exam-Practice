@@ -13,10 +13,7 @@
         android:theme="@style/Theme.MyApplication"
         tools:targetApi="31">
         <activity
-            android:name=".SecondAcRes"
-            android:exported="false" />
-        <activity
-            android:name=".FirstAcRes"
+            android:name=".DisplayOutput"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -25,13 +22,19 @@
             </intent-filter>
         </activity>
         <activity
+            android:name=".SecondAcRes"
+            android:exported="false" />
+        <activity
+            android:name=".FirstAcRes"
+            android:exported="false">
+
+        </activity>
+        <activity
             android:name=".SecondActivity"
             android:exported="false" />
         <activity
             android:name=".FirstActivity"
-            android:exported="false">
-
-        </activity>
+            android:exported="false"></activity>
         <activity
             android:name=".AndroidActivityDemo"
             android:exported="false" />
