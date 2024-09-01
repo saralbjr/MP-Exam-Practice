@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:stretchColumns="*"
+    android:padding="16dp"
+  >
+
+    <TableRow
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:padding="8dp"> <!-- Added padding for spacing -->
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Label 1"
+            android:textSize="20sp"
+            android:layout_margin="8dp" /> <!-- Added margin -->
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Label 2"
+            android:textSize="20sp"
+            android:layout_margin="8dp" /> <!-- Added margin -->
+    </TableRow>
+
+    <TableRow
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:padding="8dp"> <!-- Added padding for spacing -->
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Label 3"
+            android:textSize="20sp"
+            android:layout_margin="8dp" /> <!-- Added margin -->
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Label 4"
+            android:textSize="20sp"
+            android:layout_margin="8dp" /> <!-- Added margin -->
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Label 5"
+            android:textSize="20sp"
+            android:layout_margin="8dp" /> <!-- Added margin -->
+    </TableRow>
+
+</TableLayout>
